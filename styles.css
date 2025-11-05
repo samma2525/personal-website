@@ -1,0 +1,224 @@
+.section_container {
+    display: block;
+    margin: 40px auto;
+    width: 80%;
+    gap: 20px;
+    max-width: 53ch;
+    background-color: #626F92;
+    background-size: 130%;
+    border: 2px solid #415077;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#Samma:hover {
+    letter-spacing: 1.5px;
+    transition: letter-spacing 0.3s ease;
+    font-family: 'Bigbesty';
+}
+
+h4 {
+    text-align: center;
+    color: #f9b6ac;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+h4:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #474168;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p {
+    color: #ffd6d0
+}
+
+.Name_story {
+    text-align: center;
+}
+
+.general_not {
+    text-align: center;
+    margin: 40px auto;
+    width: 80%;
+    gap: 20px;
+}
+
+#Samma {
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "VT323", monospace;
+    background: linear-gradient(to right, #F9C4AC, #F39F9F, #FFA4A4, #F75270, #FFA4A4, #F39F9F, #F9C4AC);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Bigbesty';
+    src: url('Bigbesty.ttf') format('truetype');
+}
+
+left {
+    position: fixed;
+    top: 50%;
+    transform: translayeY(-50%);
+    width: 150px;
+    z-index: 10;
+}
+
+#fish {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+#fish1 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+#fish2 {
+    position: absolute;
+    top: 575px;
+    right: 75px;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish3 {
+    position: absolute;
+    top: 750px;
+    left: 175px;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish4 {
+    position: absolute;
+    top: 975px;
+    right: 100px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+#fish5 {
+    position: absolute;
+    top: 1150px;
+    left: 50;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+#fish6 {
+    position: absolute;
+    top: 1375px;
+    right: 150px;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish7 {
+    position: absolute;
+    top: 1550px;
+    left: 150px;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish9 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish10 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 150px;
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+}
+
+#fish11 {
+    position: absolute;
+    top: 250px;
+    right: 250px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    opacity: 0.40;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+.image:hover {
+    transform: translateY(-50%);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#me {
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+#meImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
